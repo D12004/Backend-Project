@@ -6,6 +6,6 @@ Backend Link: https://github.com/D12004/Backend-Project
 
 Render Link: https://backend-project-4u26.onrender.com
 
-Render Lessons Link:
+Render Lessons Link: https://backend-project-4u26.onrender.com/lessons
 
 Render Orders Link: 
