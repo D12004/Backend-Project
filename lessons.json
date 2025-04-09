@@ -1,12 +1,12 @@
 [
-  { "id": 1, "topic": "ATV Riding", "location": "Downtown Dubai", "price": 200, "space": 6, "icon": "fas fa-quad-bike" },
-  { "id": 2, "topic": "Camping", "location": "Dubai Marina", "price": 250, "space": 7, "icon": "fas fa-campground" },
-  { "id": 3, "topic": "Kite Surfing", "location": "Jumeirah Beach", "price": 180, "space": 5, "icon": "fas fa-water" },
-  { "id": 4, "topic": "Motorcycling", "location": "Al Barsha", "price": 220, "space": 9, "icon": "fas fa-motorcycle" },
-  { "id": 5, "topic": "Photography", "location": "Business Bay", "price": 300, "space": 8, "icon": "fas fa-camera" },
-  { "id": 6, "topic": "Rafting", "location": "Deira", "price": 190, "space": 10, "icon": "fas fa-water" },
-  { "id": 7, "topic": "Skydiving", "location": "Jebel Ali", "price": 280, "space": 7, "icon": "fas fa-parachute-box" },
-  { "id": 8, "topic": "Snowmobiling", "location": "Dubai Silicon Oasis", "price": 260, "space": 6, "icon": "fas fa-snowflake" },
-  { "id": 9, "topic": "Surfing", "location": "Al Qusais", "price": 240, "space": 8, "icon": "fas fa-surfing" },
-  { "id": 10, "topic": "Wakeboarding", "location": "Dubai Festival City", "price": 210, "space": 9, "icon": "fas fa-water" }
+  { "id": 1, "topic": "ATV Riding", "location": "Al Ain Road", "price": 220, "space": 6, "icon": "fas fa-quad-bike" },
+  { "id": 2, "topic": "Camping", "location": "Hatta", "price": 270, "space": 7, "icon": "fas fa-campground" },
+  { "id": 3, "topic": "Kite Surfing", "location": "Palm Jumeirah", "price": 210, "space": 5, "icon": "fas fa-water" },
+  { "id": 4, "topic": "Motorcycling", "location": "Al Quoz", "price": 240, "space": 9, "icon": "fas fa-motorcycle" },
+  { "id": 5, "topic": "Photography", "location": "Dubai Creek", "price": 320, "space": 8, "icon": "fas fa-camera" },
+  { "id": 6, "topic": "Rafting", "location": "Wadi Wurayah", "price": 210, "space": 10, "icon": "fas fa-water" },
+  { "id": 7, "topic": "Skydiving", "location": "Skydive Dubai Desert Campus", "price": 330, "space": 7, "icon": "fas fa-parachute-box" },
+  { "id": 8, "topic": "Snowmobiling", "location": "Mall of the Emirates", "price": 290, "space": 6, "icon": "fas fa-snowflake" },
+  { "id": 9, "topic": "Surfing", "location": "Jumeirah Beach Residence", "price": 250, "space": 8, "icon": "fas fa-surfing" },
+  { "id": 10, "topic": "Wakeboarding", "location": "Dubai Marina", "price": 230, "space": 9, "icon": "fas fa-water" }
 ]
