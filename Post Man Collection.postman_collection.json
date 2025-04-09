@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "d524d403-13a1-499c-b335-24400696e604",
+		"name": "Post Man Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43907312",
+		"_collection_link": "https://john-6363605.postman.co/workspace/John's-Workspace~fbe40658-612d-4bf8-8a54-c83b305e6623/collection/43907312-d524d403-13a1-499c-b335-24400696e604?action=share&source=collection_link&creator=43907312"
+	},
+	"item": [
+		{
+			"name": "Get All Lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-project-4u26.onrender.com/lessons",
+					"protocol": "https",
+					"host": [
+						"backend-project-4u26",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-project-4u26.onrender.com/images/Rafting.jpg",
+					"protocol": "https",
+					"host": [
+						"backend-project-4u26",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"images",
+						"Rafting.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search (Empty Query)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-project-4u26.onrender.com/search?search_query=",
+					"protocol": "https",
+					"host": [
+						"backend-project-4u26",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "search_query",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search (Sample Query)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-project-4u26.onrender.com/search?search_query=",
+					"protocol": "https",
+					"host": [
+						"backend-project-4u26",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "search_query",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert a Order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Simon\",\r\n    \"phone\": 14211,\r\n    \"lessons\": [\r\n        {\r\n            \"id\": 4,\r\n            \"space\": 1\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"space\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://backend-project-4u26.onrender.com/orders",
+					"protocol": "https",
+					"host": [
+						"backend-project-4u26",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update attribute of Lesson",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Simon\",\r\n    \"phone\": 14211,\r\n    \"lessons\": [\r\n        {\r\n            \"id\": 4,\r\n            \"space\": 1\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"space\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://backend-project-4u26.onrender.com/orders",
+					"protocol": "https",
+					"host": [
+						"backend-project-4u26",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
