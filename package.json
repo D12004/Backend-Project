@@ -1,0 +1,13 @@
+{
+	"name": "Middlesex After School Lessons",
+	"author": "Olamide",
+	"main": "server.js",
+	"dependencies": {
+		"express": "^4.21.2",
+		"mongodb": "^6.14.2"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	}
+}
